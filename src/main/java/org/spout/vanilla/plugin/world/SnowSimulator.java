@@ -115,7 +115,7 @@ public class SnowSimulator extends Component {
 				return;
 			}
 			Random rand = MathHelper.getRandom();
-			Point playerPos = player.getTransform().getPosition();
+			Point playerPos = player.getScene().getPosition();
 			final int posX = MathHelper.floor(playerPos.getX());
 			final int posY = MathHelper.floor(playerPos.getY());
 			final int posZ = MathHelper.floor(playerPos.getZ());
